@@ -5,7 +5,7 @@ FROM $IMAGE
 WORKDIR /home/irisowner/dev/
 
 ARG TESTS=0
-ARG MODULE="interoperability-sample"
+ARG MODULE="iris-kafka"
 ARG NAMESPACE="USER"
 
 RUN --mount=type=bind,src=.,dst=. \
